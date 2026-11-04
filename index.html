@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081426">
+  <meta name="description" content="Portofolio Ferdinand Aryan Bulu, fresh graduate S1 Teknologi Informasi yang memiliki minat pada pengolahan data, teknologi informasi, dan pengembangan web.">
+  <title>Ferdinand Aryan Bulu | Digital Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 + Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Progress bar -->
+  <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top portfolio-nav">
+    <div class="container-fluid px-lg-5">
+      <a class="navbar-brand" href="#home" aria-label="Kembali ke halaman utama">FAB<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Buka navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link contact-link" href="#contact">Contact <i class="bi bi-arrow-up-right"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="slides">
+    <!-- HERO -->
+    <section class="slide-section hero-section" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-content">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span class="status-dot"></span> OPEN TO WORK <span class="mx-2 opacity-50">/</span> INFORMATION TECHNOLOGY</div>
+            <p class="hero-kicker">HELLO, I'M</p>
+            <h1>Ferdinand Aryan<br><span class="gradient-text">Bulu.</span></h1>
+            <div class="typed-line">
+              Fresh Graduate <span class="typed-separator">/</span>
+              <span id="typedText">Information Technology</span><span class="typing-cursor">|</span>
+            </div>
+            <p class="hero-description">
+              Saya adalah lulusan S1 Teknologi Informasi yang tertarik pada pengolahan data,
+              teknologi digital, dan pengembangan aplikasi web. Saya senang mempelajari hal baru
+              serta membangun solusi yang bermanfaat.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#projects" class="btn btn-primary-custom">Jelajahi Proyek <i class="bi bi-arrow-up-right ms-1"></i></a>
+              <a href="#contact" class="btn btn-outline-custom">Hubungi Saya</a>
+            </div>
+
+            <div class="hero-socials mt-5">
+              <span>LET'S CONNECT</span>
+      <a href="https://github.com/bulu-debug"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="GitHub">
+    <i class="bi bi-github"></i>
+</a>
+
+<a href="mailto:ferdinandaryan184@gmail.com"
+   aria-label="Email">
+    <i class="bi bi-envelope"></i>
+</a>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="profile-wrap">
+              <div class="profile-backdrop"></div>
+              <div class="profile-frame">
+                <img src="assets/images/profile/foto-profil.png" alt="Foto profil Ferdinand Aryan Bulu"
+                     onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+                <div class="profile-placeholder"><i class="bi bi-person"></i><span>Tambahkan foto profil</span></div>
+              </div>
+              <div class="floating-card card-location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div><b>Kupang, NTT</b><small>Indonesia</small></div>
+              </div>
+              <div class="floating-card card-degree">
+                <i class="bi bi-mortarboard-fill"></i>
+                <div><b>S1 Teknologi Informasi</b><small>Fresh Graduate</small></div>
+              </div>
+              <div class="circle-label">PORTFOLIO <span>·</span> 2026</div>
+            </div>
+          </div>
+        </div>
+
+        <a class="hero-scroll" href="#about" aria-label="Gulir ke bagian tentang saya">
+          <span>SCROLL TO EXPLORE</span><i class="bi bi-arrow-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="slide-section" id="about">
+      <div class="container section-container">
+        <div class="section-heading">
+          <span class="section-index">01 / ABOUT ME</span>
+          <h2>Di Balik <span class="gradient-text">Profil Saya</span></h2>
+          <p>Perkenalan singkat, nilai kerja, dan bidang yang ingin terus saya kembangkan.</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="glass-card about-card reveal">
+              <div class="card-icon"><i class="bi bi-person-vcard"></i></div>
+              <span class="mini-label">WHO I AM</span>
+              <h3>Profil Profesional</h3>
+              <p>
+                Saya merupakan lulusan S1 Teknologi Informasi dari Universitas Citra Bangsa.
+                Saya memiliki pengetahuan dasar mengenai teknologi informasi, pengolahan data,
+                dan pemetaan digital.
+              </p>
+              <p>
+                Saya terbiasa menggunakan perangkat lunak komputer untuk mendukung pekerjaan
+                administrasi dan pengolahan data. Saya pribadi yang bertanggung jawab, disiplin,
+                teliti, mudah beradaptasi, serta mampu bekerja secara mandiri maupun dalam tim.
+              </p>
+              <div class="about-tags">
+                <span>Teliti</span><span>Adaptif</span><span>Komunikatif</span><span>Kolaboratif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="about-stat-grid">
+              <div class="stat-card reveal"><i class="bi bi-laptop"></i><strong>TI</strong><span>Teknologi Informasi</span></div>
+              <div class="stat-card reveal"><i class="bi bi-database-check"></i><strong>DATA</strong><span>Processing</span></div>
+              <div class="stat-card reveal"><i class="bi bi-window-stack"></i><strong>WEB</strong><span>Development</span></div>
+              <div class="stat-card reveal"><i class="bi bi-people"></i><strong>TEAM</strong><span>Collaboration</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="slide-section alt-section" id="education">
+      <div class="container section-container">
+        <div class="section-heading">
+          <span class="section-index">02 / EDUCATION</span>
+          <h2>Riwayat <span class="gradient-text">Pendidikan</span></h2>
+          <p>Landasan akademik yang membentuk pengetahuan dan keterampilan saya.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-date">PENDIDIKAN TINGGI</div>
+            <div class="timeline-card">
+              <span class="mini-label">UNIVERSITAS</span>
+              <h3>Universitas Citra Bangsa</h3>
+              <p class="timeline-subtitle">S1 Teknologi Informasi</p>
+              <p>Mempelajari dasar teknologi informasi, pengolahan data, sistem informasi, dan pengembangan aplikasi.</p>
+            </div>
+          </div>
+        
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="slide-section" id="experience">
+      <div class="container section-container">
+        <div class="section-heading">
+          <span class="section-index">03 / EXPERIENCE</span>
+          <h2>Pengalaman & <span class="gradient-text">Perjalanan</span></h2>
+          <p>Pengalaman praktik, pengabdian, dan kegiatan penelitian.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <article class="experience-card reveal">
+              <div class="experience-image">
+                <img src="assets/images/pkl/kegiatan-1.jpg" alt="Dokumentasi kegiatan PKL"
+                     onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none'">
+                <span><i class="bi bi-camera"></i> FIELD DOCUMENTATION</span>
+              </div>
+              <div class="experience-body">
+                <div class="experience-meta">AGUSTUS 2025 · KUPANG</div>
+                <h3>Praktik Kerja Lapangan</h3>
+                <p><b>Dinas Pertanian dan Ketahanan Pangan Provinsi NTT</b></p>
+                <ul>
+                  <li>Melakukan penginputan data bibit dan pupuk.</li>
+                  <li>Mendokumentasikan kegiatan lapangan.</li>
+                  <li>Membantu administrasi dan pengolahan data.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="experience-card reveal">
+              <div class="experience-image">
+                <img src="assets/images/experience/kkn/WhatsApp Image 2026-11-04 at 15.51.38.jpeg" alt="Dokumentasi kegiatan KKN"
+                     onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none'">
+                <span><i class="bi bi-camera"></i> COMMUNITY SERVICE</span>
+              </div>
+              <div class="experience-body">
+                <div class="experience-meta">KKN · DESA BAUMATA/ 2025</div>
+                <h3>Kuliah Kerja Nyata</h3>
+                <p>Pengalaman pengabdian dan keterlibatan dalam kegiatan masyarakat.</p>
+                <p class="muted-note">Desa Baumata Pusat, 2025,Membuat peta desa, dan sistem penelolaan data desa.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="experience-card reveal">
+              <div class="experience-image">
+                <img src="assets/images/experience/penelitian/dokumentasi.png" alt="Dokumentasi penelitian di Kabupaten Rote"
+                     onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none'">
+                <span><i class="bi bi-camera"></i> RESEARCH ACTIVITY</span>
+              </div>
+              <div class="experience-body">
+                <div class="experience-meta">KABUPATEN ROTE · 2026</div>
+                <h3>Penelitian Lapangan</h3>
+                <p>Pengumpulan informasi dan dokumentasi kegiatan penelitian di Kabupaten Rote.</p>
+                <p class="muted-note">Foto tanaman cabai, Desa Landuleko, 2026.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="slide-section alt-section" id="skills">
+      <div class="container section-container">
+        <div class="section-heading">
+          <span class="section-index">04 / SKILLS & TOOLS</span>
+          <h2>Keahlian <span class="gradient-text">Digital</span></h2>
+          <p>Tools dan kemampuan yang dapat saya gunakan untuk mendukung pekerjaan.</p>
+        </div>
+
+        <div class="row g-3 skills-grid">
+          <div class="col-6 col-md-4 col-lg">
+            <div class="skill-card reveal"><div class="app-logo excel">X</div><h3>Microsoft Excel</h3><span>Spreadsheet & Data</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <div class="skill-card reveal"><div class="app-logo word">W</div><h3>Microsoft Word</h3><span>Document Processing</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <div class="skill-card reveal"><div class="app-logo powerpoint">P</div><h3>PowerPoint</h3><span>Presentation</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <div class="skill-card reveal"><div class="app-logo canva">C</div><h3>Canva</h3><span>Graphic Design</span></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <div class="skill-card reveal"><div class="app-logo capcut"><i class="bi bi-scissors"></i></div><h3>CapCut</h3><span>Video Editing</span></div>
+          </div>
+        </div>
+
+        <div class="other-skills reveal">
+          <span>CORE SKILLS</span>
+          <div>
+            <b>Pengolahan Data</b><b>Administrasi</b><b>Microsoft Office</b>
+            <b>Pemetaan Digital</b><b>HTML</b><b>CSS</b><b>JavaScript</b>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+
+   
+<!-- PROJECTS -->
+<section class="slide-section" id="projects">
+    <div class="container section-container">
+
+        <div class="section-heading">
+            <span class="section-index">05 / SELECTED WORKS</span>
+            <h2>Proyek <span class="gradient-text">Pilihan</span></h2>
+            <p>Contoh karya akademik dan proses pengembangan yang pernah dilakukan.</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+
+            <!-- PROJECT WEBSITE -->
+            <div class="col-lg-7">
+                <article class="project-card project-feature reveal">
+
+                    <div class="project-preview">
+                        <img
+                            src="assets/images/projects/Screenshot 2026-11-04 104515.png"
+                            alt="Website klasifikasi tingkat kematangan cabai"
+                            onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none'">
+
+                        <span>
+                            <i class="bi bi-window"></i> WEB APPLICATION
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+                        <div class="experience-meta">
+                            ACADEMIC PROJECT · WEB APPLICATION
+                        </div>
+
+                        <h3>Website Sistem Klasifikasi Kematangan Cabai</h3>
+
+                        <p>
+                            Proyek pengembangan website untuk mengklasifikasikan
+                            tingkat kematangan cabai berdasarkan citra. Sistem
+                            dirancang untuk membantu proses pengenalan kategori
+                            kematangan melalui antarmuka web.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Flask</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+
+            <!-- PROJECT PENELITIAN -->
+            <div class="col-lg-5">
+                <div class="project-side-card reveal">
+
+                    <div class="project-side-icon">
+                        <i class="bi bi-clipboard2-data"></i>
+                    </div>
+
+                    <div class="experience-meta">
+                        RESEARCH · KABUPATEN ROTE
+                    </div>
+
+                    <h3>Penelitian & Pengumpulan Data</h3>
+
+                    <p>
+                        Dokumentasi proses penelitian, observasi, dan
+                        pengumpulan data di Kabupaten Rote.
+                    </p>
+
+                    <!-- GALERI FOTO -->
+                    <div class="project-side-image">
+                        <div class="row g-2">
+
+                            <div class="col-6">
+                                <img
+                                    src="assets/images/projects/1.jpeg"
+                                    alt="Dokumentasi penelitian 1"
+                                    class="img-fluid">
+                            </div>
+
+                            <div class="col-6">
+                                <img
+                                    src="assets/images/projects/2.jpeg"
+                                    alt="Dokumentasi penelitian 2"
+                                    class="img-fluid">
+                            </div>
+
+                            <div class="col-12">
+                                <img
+                                    src="assets/images/projects/3.jpeg"
+                                    alt="Dokumentasi penelitian 3"
+                                    class="img-fluid project-main-gallery">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="tech-tags mt-3">
+                        <span>Observasi</span>
+                        <span>Penelitian</span>
+                        <span>Pengumpulan Data</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- CONTACT -->
+    <section class="slide-section contact-section" id="contact">
+      <div class="container section-container">
+        <div class="contact-panel reveal">
+          <span class="section-index">085737267945 / CONTACT</span>
+          <div class="card-icon mx-auto mt-3"><i class="bi bi-chat-dots"></i></div>
+          <h2>Mari Terhubung<br><span class="gradient-text">dan Berkolaborasi.</span></h2>
+         
+          <div class="contact-actions">
+           <a class="btn btn-primary-custom"
+   href="https://mail.google.com/mail/?view=cm&fs=1&to=ferdinandaryan184@gmail.com"
+   target="_blank">
+    <i class="bi bi-envelope me-1"></i> Kirim Email
+</a>
+            <a class="btn btn-outline-custom" href="https://github.com/" target="_blank" rel="noopener"><i class="bi bi-github me-1"></i> GitHub</a>
+          </div>
+
+          <div class="contact-details">
+            <div><i class="bi bi-geo-alt"></i><span>Kupang, Nusa Tenggara Timur</span></div>
+            <div><i class="bi bi-envelope"></i><span>ferdinandaryan184@gmail.com</span></div>
+          </div>
+          <footer>© <span id="year"></span> Ferdinand Aryan Bulu. Crafted with purpose.</footer>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button id="backTop" aria-label="Kembali ke halaman utama"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/animation.js"></script>
+</body>
+</html>
